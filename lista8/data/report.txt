@@ -1,0 +1,7 @@
+Liczba produktów: 6
+Suma cen: 10728.89
+
+peryferie -> 264.945
+smartfony -> 3000.0
+laptopy -> 3400.0
+monitory -> 799.0

@@ -3,7 +3,6 @@ package ex2;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,7 +28,7 @@ public class Main {
 
         int max = 0;
         String maxAuthor = "";
-        for (Map.Entry<String, ArrayList<Book>> booksMap : booksByAuthor.entrySet()) {
+        for (HashMap.Entry<String, ArrayList<Book>> booksMap : booksByAuthor.entrySet()) {
             String author = booksMap.getKey();
             ArrayList<Book> bookList = booksMap.getValue();
             int bookCounter = bookList.size();
@@ -43,10 +42,10 @@ public class Main {
         System.out.println("The most books ("+max+") has "+maxAuthor);
         System.out.println();
 
-        int X = 1900;
-        System.out.println("Books published after "+X+":");
+        int X = 125;
+        System.out.println("Books published "+X+" years ago:");
         for(Book b : books){
-            if(b.getYear()>X){
+            if(b.getYear()>2025-X){
                 System.out.println("* "+b);
             }
         }

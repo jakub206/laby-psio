@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Lista na laby psio",
+    "description": "Wykonaj listę na laby z psio",
+    "isDone": true,
+    "dueDate": "2025-12-15"
+  },
+  {
+    "title": "Zadanie OSK",
+    "description": "Wykonaj zadania z listy na OSK",
+    "isDone": false,
+    "dueDate": "2025-12-15"
+  },
+  {
+    "title": "Nauka Numpy",
+    "description": "Przerobić wszystkie tutoriale z numpy",
+    "isDone": false,
+    "dueDate": "2025-12-31"
+  }
+]

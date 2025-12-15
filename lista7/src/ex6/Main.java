@@ -36,7 +36,7 @@ public class Main {
         orders.add(new Order(i3.getItemId(),5));
 
         int control = 0;
-        while (control < 2 && !orders.isEmpty()) {
+        while (control != 2 && !orders.isEmpty()) {
             Order currentOrder = orders.poll();
 
             Item item = null;
